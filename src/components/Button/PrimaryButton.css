@@ -1,0 +1,15 @@
+.primary-button {
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    background-color: var(--color-golden);
+    padding: 1rem 3.2rem;
+    transition: all 0.5s;
+}
+
+.primary-button:hover {
+    background-color: var(--color-dark-golden);
+}

@@ -1,0 +1,48 @@
+.AboutUs {
+    position: relative;
+    padding: 12.8rem 0;
+    z-index: 1;
+}
+
+.overlayImgBox {
+    position: absolute;
+    top: 0;
+    left: 40%;
+    transform: translateY(40rem);
+    z-index: -1;
+}
+
+.overlayImgBox img {
+    max-width: 39.1rem;
+}
+
+.aboutUs__content {
+    display: flex;
+    align-items: center;
+    gap: 8.4rem;
+    z-index: 2;
+}
+
+.aboutUsImageBox img {
+    height: 910px;
+}
+
+.aboutUs-paragraph {
+    font-family: var(--font-alt);
+    font-size: 1.6rem;
+    color: var(--color-grey);
+    line-height: 1.8;
+    margin-bottom: 3.2rem;
+}
+
+.heading-box {
+    margin-bottom: 3.2rem;
+}
+
+.aboutUs__intro--left {
+    text-align: left;
+}
+
+.aboutUs__intro--right {
+    text-align: right;
+}

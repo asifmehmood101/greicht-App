@@ -1,0 +1,12 @@
+.menu {
+    color: var(--color-white);
+    background-color: var(--color-black);
+    padding: 12.8rem 0;
+}
+
+.menu__content {
+    margin-top: 6.4rem;
+    display: flex;
+    gap: 3.2rem;
+    justify-content: center;
+}

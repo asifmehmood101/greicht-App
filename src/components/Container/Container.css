@@ -1,0 +1,10 @@
+.container-xl {
+    position: relative;
+    max-width: 168rem;
+    margin: 0 auto;
+}
+
+.container-lg {
+    max-width: 135rem;
+    margin: 0 auto;
+}
