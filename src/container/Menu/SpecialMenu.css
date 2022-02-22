@@ -1,4 +1,6 @@
 .menu {
+    display: flex;
+    justify-content: center;
     color: var(--color-white);
     background-color: var(--color-black);
     padding: 12.8rem 0;
@@ -9,4 +11,20 @@
     display: flex;
     gap: 3.2rem;
     justify-content: center;
+    margin-bottom: 7.3rem;
+}
+
+.menu__drinks {
+    flex: 0 0 35%;
+}
+
+.menu__drinks h2 {
+    font-size: 4.5rem;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 4.8rem;
+}
+
+.menu__drink-image {
+    height: 65.9rem;
 }

@@ -1,0 +1,71 @@
+.chef {
+    color: var(--color-white);
+    padding: 12.8rem 0;
+}
+
+.chef__container {
+    display: flex;
+    gap: 8rem;
+}
+
+.chef__content {
+    padding: 8.7rem 1rem;
+}
+
+.chef__image-box {
+    align-self: center;
+    max-width: 66.5rem;
+}
+
+.chef__image-box img {
+    width: 100%;
+}
+
+.chef__signature {
+    max-width: 23.5rem;
+}
+
+.chef__signature img {
+    width: 100%;
+}
+
+.chef__heading h2 {
+    text-transform: capitalize;
+    color: var(--color-golden);
+    font-size: 6.4rem;
+    font-weight: 600;
+    margin-bottom: 3.8rem;
+}
+
+.chef__words {
+    padding-right: 9rem;
+    margin-bottom: 6.4rem;
+}
+
+.chef__paragraph {
+    color: var(--color-grey);
+    font-size: 1.6rem;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+.chef__intro {
+    margin-bottom: 6.4rem;
+}
+
+.chef__intro-name {
+    text-transform: capitalize;
+    color: var(--color-golden);
+    font-size: 3.2rem;
+}
+
+.chef__intro-designation {
+    color: var(--color-grey);
+    font-size: 1.6rem;
+    letter-spacing: 0.04em;
+}
+
+.chef__quotation {
+    display: inline-block;
+    margin-right: 1rem;
+}

@@ -13,3 +13,7 @@
 .primary-button:hover {
     background-color: var(--color-dark-golden);
 }
+
+.btn__center {
+    text-align: center;
+}
