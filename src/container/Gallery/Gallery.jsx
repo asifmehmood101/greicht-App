@@ -30,7 +30,6 @@ export const Gallery = () => {
             return (
               <div className="gallery__image-card" key={index}>
                 <img src={image} alt={`gallery_image-${index + 1}`} />
-
                 <div className="image__icon-box">
                   <BsInstagram fontSize={25} className="image-icon" />
                 </div>

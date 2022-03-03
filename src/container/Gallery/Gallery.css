@@ -30,8 +30,8 @@
 }
 
 .gallery__images {
+    align-self: center;
     display: flex;
-    /* gap: 2.2rem; */
     overflow-y: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -63,24 +63,24 @@
 
 .image__icon-box {
     position: absolute;
-    /* display: flex;
+    display: flex;
+    transform: translateY(0);
     align-items: center;
-    justify-content: center; */
+    justify-content: center;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
     transition: all 0.3s;
-    transform: translateY(0);
 }
 
 .image-icon {
     color: var(--color-grey);
-    opacity: 0;
+    opacity: 1;
     transition: all 0.3s;
 }
 
 .gallery__image-card:hover .image__icon-box {
-    transform: translateY(-100%);
+    transform: translateY(-102%);
 }
 
 .gallery__image-card:hover .image-icon {
