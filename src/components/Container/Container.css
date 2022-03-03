@@ -1,16 +1,10 @@
 .container-xl {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     position: relative;
     max-width: 168rem;
     margin: 0 auto;
 }
 
 .container-lg {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     max-width: 135rem;
     margin: 0 auto;
 }

@@ -1,6 +1,6 @@
-import React from "react";
-import { images } from "../../constants";
-import "./Navbar.css";
+import React from 'react';
+import { images } from '../../constants';
+import './Navbar.css';
 
 export const Navbar = () => {
   return (
@@ -16,7 +16,7 @@ export const Navbar = () => {
             </li>
             <li className="nav__item nav__item2">
               <a href="#/" className="nav__link">
-                page
+                page hello
               </a>
             </li>
             <li className="nav__item nav__item3">

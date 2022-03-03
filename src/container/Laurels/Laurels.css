@@ -1,0 +1,54 @@
+.laurel {
+    position: relative;
+    color: var(--color-white);
+}
+
+.container-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12.8rem 0;
+}
+
+.laurel__heading {
+    color: var(--color-golden);
+    font-size: 6.4rem;
+    font-weight: 600;
+    margin-bottom: 6.4rem;
+}
+
+.logo-box {
+    position: absolute;
+    display: inline-block;
+    /* top | right | bottom | left */
+    margin: 5.6rem 0 0 6.3rem;
+}
+
+.awards-details {
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    column-gap: 3.2rem;
+    row-gap: 6.4rem;
+}
+
+.laurel__image-box img {
+    height: 69.1rem;
+}
+
+.award-detail {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+}
+
+.award__title {
+    color: var(--color-golden);
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+.award__subtitle {
+    color: var(--color-grey);
+    font-size: 1.6rem;
+    font-family: var(--font-alt);
+}

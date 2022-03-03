@@ -2,7 +2,6 @@ import React from 'react';
 import { PrimaryButton } from '../../components/Button';
 import { Container } from '../../components/Container/Container';
 import { images } from '../../constants';
-
 import './AboutUs.css';
 
 export const AboutUs = () => (

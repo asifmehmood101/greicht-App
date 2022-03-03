@@ -1,11 +1,11 @@
 import { AboutUs } from './AboutUs/AboutUs';
-import Chef from './Chef/Chef';
+import { Chef } from './Chef/Chef';
 import FindUs from './Findus/FindUs';
 import Footer from './Footer/Footer';
-import Gallery from './Gallery/Gallery';
+import { Gallery } from './Gallery/Gallery';
 import { Hero } from './Hero/Hero';
-import Intro from './Intro/Intro';
-import Laurels from './Laurels/Laurels';
+import { Intro } from './Intro/Intro';
+import { Laurels } from './Laurels/Laurels';
 import { SpecialMenu } from './Menu/SpecialMenu';
 
 export {

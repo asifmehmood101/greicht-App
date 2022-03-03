@@ -5,7 +5,7 @@ import { images } from '../../constants';
 
 import './Chef.css';
 
-const Chef = () => (
+export const Chef = () => (
   <section className="chef  app__bg">
     <Container>
       <Container maxWlg>
@@ -49,5 +49,3 @@ const Chef = () => (
     </Container>
   </section>
 );
-
-export default Chef;
