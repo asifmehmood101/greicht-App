@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
 :root {
-    --font-base: "Cormorant Upright", serif;
-    --font-alt: "Open Sans", sans-serif;
+    --font-base: 'Cormorant Upright', serif;
+    --font-alt: 'Open Sans', sans-serif;
     --color-golden: #dcca87;
     --color-dark-golden: #a09366;
     --color-black: #0c0c0c;
@@ -37,6 +37,10 @@ a {
 .slide-bottom {
     -webkit-animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
     animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.app__wrapper-content {
+    margin-bottom: 2rem;
 }
 
 @-webkit-keyframes slide-bottom {

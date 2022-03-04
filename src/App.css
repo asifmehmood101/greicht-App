@@ -36,7 +36,6 @@
     flex: 1;
     width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-left: 2rem;
 }
@@ -47,7 +46,7 @@
 }
 
 .app__wrapper_img img {
-    width: 80%;
+    width: 70%;
 }
 
 .custom__button {
